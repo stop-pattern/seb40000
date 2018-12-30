@@ -110,7 +110,7 @@ limitations under the License.
 6. pullRequestを作成  
 
 ## 制作者
-[Stop_Pattern](https://github.com/stoppattern)  
+[Stop_Pattern](https://github.com/stop-pattern)  
 
 ## 謝辞
 BVEを開発されたmackoy様を始めとし、多くの方のお力添えをいただきこのアドオンは作成されました。  
