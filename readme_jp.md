@@ -5,7 +5,6 @@
 列車運転シミュレーションゲーム”Bve Trainsim”専用西武40000系車両アドオン  
 please read [readme](/readme_en.md) if you want readme in English.  
 
----
 
 ## 詳細
 - [**西武鉄道様**](https://www.seiburailway.jp/)の[***40000系***](https://www.seiburailway.jp/fan/zukan/40000/index.html)をmackoy様作の**列車運転シミュレーションゲーム**[***BveTrainsim***](http://bvets.net/)で使用可能なアドオン化したものです。  
@@ -38,9 +37,8 @@ please read [readme](/readme_en.md) if you want readme in English.
 
 ## 使用方法
 
-1. [こちら](/releases)から最新版をダウンロード
-2. 中身をBVEのScenariosフォルダへ移動 [^1]  
-/[^1]:デフォルトで`C:\Users\%UserName%\Documents\BveTs\Scenarios\`
+1. [こちら](../../releases)から最新版をダウンロード
+2. 中身をBVEのScenariosフォルダへ移動  
 
 ## ライセンス(著作権表示)
 
