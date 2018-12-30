@@ -1,0 +1,575 @@
+BveTs Instrument Panel 2.00:utf-8
+#The instrument panel of seb400000 made by stop_pattern  Ver0.01:4β
+#(c) stop_pattern 2018~
+
+;---ベース---
+[This]
+Resolution = 7680
+Left = 0
+Top = 0
+Right = 7680
+Bottom = 4320
+Center = 3840, 2160
+Origin = 3840, 2160
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DaytimeImage = panel(this).png
+TransparentColor = 00000000
+Layer = 1
+
+[PilotLamp]
+Subject = true
+Location = 3350, 2600
+DaytimeImage =Center\透過用背景-中央.png
+TransparentColor = 00000000
+Layer = 2
+
+[PilotLamp]
+Subject = door
+Location = 0, 0
+DaytimeImage =door.png
+TransparentColor = 00000000
+Layer = 5
+
+[PilotLamp]
+Subject = true
+Location = 1500, 0
+DaytimeImage =CCTV.png
+TransparentColor = 00000000
+Layer = 2
+
+;CCTV-animation
+[DigitalNumber]
+Subject = ats193;@ch1
+Location = 1620,145
+DaytimeImage =CCTV-animation.png
+Layer = 10
+Interval = 460
+[DigitalNumber]
+Subject = ats193;@ch2
+Location = 2340,145
+DaytimeImage =CCTV-animation.png
+Layer = 10
+Interval = 460
+[DigitalNumber]
+Subject = ats193;@ch3
+Location = 3060,145
+DaytimeImage =CCTV-animation.png
+Layer = 10
+Interval = 460
+[DigitalNumber]
+Subject = ats193;@ch4
+Location = 3780,145
+DaytimeImage =CCTV-animation.png
+Layer = 10
+Interval = 460
+
+[PilotLamp]
+Subject = true
+Location = 5342, 2865
+DaytimeImage =Right\透過用背景-右.png
+TransparentColor = 00000000
+Layer = 2
+
+[PilotLamp]
+Subject = true
+Location = 4019,2838
+DaytimeImage =Center\BCandMR.png
+TransparentColor = 00000000
+Layer = 3
+
+;---ホム三角---
+[DigitalNumber]
+Subject = ats155
+Location = 2000,1500
+DaytimeImage =青-ON.png
+TransparentColor = 00000000
+Layer = 10
+Interval = 230
+
+
+;---左LCD---
+
+[PilotLamp]
+Subject = true
+Location = 1400, 2600
+DaytimeImage =Left\状態表示灯背景.png
+TransparentColor = 00000000
+Layer = 3
+
+;---電圧計---
+[PilotLamp]
+Subject = true
+Location = 1445,3050
+DaytimeImage =Left\電圧計.png
+TransparentColor = 00000000
+Layer = 4
+
+;[DigitalNumber]
+;Subject = ats232
+;Location = 1455, 3100
+;DaytimeImage =Left\value.png
+;TransparentColor = 00000000
+;Layer = 5
+;Interval = 123
+
+;---電流計---
+[PilotLamp]
+Subject = true
+Location = 1445,3275
+DaytimeImage =Left\電流計.png
+TransparentColor = 00000000
+Layer = 4
+
+;[DigitalNumber]
+;Subject = ats211
+;Location = 1455, 3325
+;DaytimeImage =Left\value.png
+;TransparentColor = 00000000
+;Layer = 5
+;Interval = 123
+
+;状態表示灯
+[DigitalNumber]
+Subject = ats160
+Location = 1800, 2650
+DaytimeImage =Left\TIS.png
+TransparentColor = 00000000
+Layer = 4
+Interval = 800
+
+;-M-
+[PilotLamp]
+Subject = ats20
+Location = 2120, 2934
+DaytimeImage =Left\Lamp\M\ATC-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats46
+Location = 1900, 2760
+DaytimeImage =Left\Lamp\M\ATS正常-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats25
+Location = 2120, 2812
+DaytimeImage =Left\Lamp\ATC非常.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats47
+Location = 1900,2818
+DaytimeImage =Left\Lamp\M\動作-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats253
+Location = 1900,2876
+DaytimeImage =Left\Lamp\M\停車-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats176
+Location = 1900,3108
+DaytimeImage =Left\Lamp\M\圧着ブレーキ-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats33
+Location = 2120,2992
+DaytimeImage =Left\Lamp\M\構内-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats30
+Location = 2120,3050
+DaytimeImage =Left\Lamp\M\非設-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats48
+Location = 1900,3050
+DaytimeImage =Left\Lamp\M\確認-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats49
+Location = 1900,2992
+DaytimeImage =Left\Lamp\M\速制-M.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = csc
+Location = 2340,3224
+DaytimeImage =Left\Lamp\M\定速-M.png
+TransparentColor = 00000000
+Layer = 6
+
+#確認用P指針#
+;[Needle]
+;Subject = ats45
+;Location = 3680,3050
+;DaytimeImage =Center\MR針.png
+;Color =cc0000
+;TransparentColor = ffffff
+;Origin = 43,330
+;Layer = 5
+;Radius = 335
+;InitialAngle =-120
+;LastAngle = 120
+;Minimum = 0
+;Maximum = 120
+;NaturalFreq = 0
+;DampingRatio = 10
+;[DigitalNumber];確認用P数値表示
+;Subject = ats45
+;Location = 3500,3350
+;DaytimeImage =Left\value.png
+;TransparentColor = 00000000
+;Layer = 8
+;Interval = 110
+
+;-S-
+[PilotLamp]
+Subject = ats19
+Location = 1900, 2876
+DaytimeImage =Left\Lamp\S\ATC-S.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats22
+Location = 2120, 2812
+DaytimeImage =Left\Lamp\ATC非常.png
+TransparentColor = 00000000
+Layer = 6
+
+[PilotLamp]
+Subject = ats23
+Location = 2120, 2760
+DaytimeImage =Left\Lamp\ATC常用.png
+TransparentColor = 00000000
+Layer = 6
+
+;-他-
+[DigitalNumber]
+Subject = ats155
+Location = 2340, 2760
+DaytimeImage =Left\Lamp\ホームドア.png
+TransparentColor = 00000000
+Layer = 6
+Interval = 102
+
+[DigitalNumber]
+Subject = ats181
+Location = 1900,3282
+DaytimeImage =Left\Lamp\ホームドア範囲外.png
+TransparentColor = 00000000
+Layer = 7
+Interval = 74
+
+[PilotLamp]
+Subject = ats181
+Location = 1900,3282
+DaytimeImage =Left\Lamp\ホームドア定位.png
+TransparentColor = 00000000
+Layer = 8
+
+[PilotLamp]
+Subject = ats182
+Location = 1900,3282
+DaytimeImage =Left\Lamp\ホームドア定位.png
+TransparentColor = 00000000
+Layer = 9
+
+[DigitalNumber]
+Subject = ats192
+Location = 1900,3282
+DaytimeImage =Left\Lamp\ホームドア開.png
+TransparentColor = 00000000
+Layer = 10
+Interval = 74
+
+
+;---中央LCD---
+[PilotLamp]
+Subject = true
+Location = 3325,2647
+DaytimeImage =Center\車内信号機・速度計.png
+TransparentColor = 00000000
+Layer = 4
+
+[Needle];kmph
+Subject = ats171
+Location = 3680,3050
+DaytimeImage =Center\kmph針.png
+Color =bfbfbf
+TransparentColor = ffffff
+Origin = 256,267
+Layer = 5
+Radius = 266
+InitialAngle =-120
+LastAngle = 120
+Minimum = 0
+Maximum = 120
+NaturalFreq = 0
+DampingRatio = 10
+
+[Needle]
+Subject = bc
+Location = 4238,3088
+DaytimeImage =Center\BC針.png
+Color =bfbfbf
+TransparentColor = ffffff
+Origin = 37,292;18,146
+Layer = 5
+Radius = 145
+InitialAngle =-120
+LastAngle = 120
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+DampingRatio = 10
+
+[Needle]
+Subject = mr
+Location = 4238,3088
+DaytimeImage =Center\MR針.png
+Color =cc0000
+TransparentColor = ffffff
+Origin = 43,237
+Layer = 5
+Radius = 237
+InitialAngle =-120
+LastAngle = 120
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 0
+DampingRatio = 10
+
+;-ATC-
+[PilotLamp]
+Subject = ats101;ATC02
+Location = 3629,3242
+DaytimeImage =Center\kmph\X.png
+TransparentColor = 00000000
+Layer = 5
+
+[PilotLamp]
+Subject = ats102;ATC01
+Location = 3398,3160
+DaytimeImage =Center\kmph\R00.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats103;ATC05
+Location = 3374,3105
+DaytimeImage =Center\kmph\G05.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats104;ATC10
+Location = 3366,3061
+DaytimeImage =Center\kmph\G10.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats105;ATC15
+Location = 3364,3018
+DaytimeImage =Center\kmph\G15.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats106;ATC20
+Location = 3366,2975
+DaytimeImage =Center\kmph\G20.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats107;ATC25
+Location = 3378,2922
+DaytimeImage =Center\kmph\G25.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats108;ATC30
+Location = 3397,2876
+DaytimeImage =Center\kmph\G30.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats109;ATC35
+Location = 3424,2833
+DaytimeImage =Center\kmph\G35.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats110;ATC40
+Location = 3460,2796
+DaytimeImage =Center\kmph\G40.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats111;ATC45
+Location = 3504,2767
+DaytimeImage =Center\kmph\G45.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats112;ATC50
+Location = 3553,2747
+DaytimeImage =Center\kmph\G50.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats113;ATC55
+Location = 3606,2736
+DaytimeImage =Center\kmph\G55.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats114;ATC60
+Location = 3649,2735
+DaytimeImage =Center\kmph\G60.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats115;ATC65
+Location = 3691,2736
+DaytimeImage =Center\kmph\G65.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats116;ATC70
+Location = 3744,2747
+DaytimeImage =Center\kmph\G70.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats117;ATC75
+Location = 3793,2768
+DaytimeImage =Center\kmph\G75.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats118;ATC80
+Location = 3836,2797
+DaytimeImage =Center\kmph\G80.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats119;ATC85
+Location = 3873,2834
+DaytimeImage =Center\kmph\G85.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats120;ATC90
+Location = 3901,2874
+DaytimeImage =Center\kmph\G90.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats121;ATC95
+Location = 3922,2926
+DaytimeImage =Center\kmph\G95.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats122;ATC100
+Location = 3933,2975
+DaytimeImage =Center\kmph\G100.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats123;ATC105
+Location = 3933,3019
+DaytimeImage =Center\kmph\G105.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats124;ATC110
+Location = 3934,3062
+DaytimeImage =Center\kmph\G110.png
+TransparentColor = 00000000
+Layer = 5
+[PilotLamp]
+Subject = ats125;ATC120
+Location = 3882,3147
+DaytimeImage =Center\kmph\G120.png
+TransparentColor = 00000000
+Layer = 5
+
+[PilotLamp]
+Subject = ats132;ATC-G
+Location = 3705,2648
+DaytimeImage =Center\kmph\G.png
+TransparentColor = 00000000
+Layer = 5
+
+[PilotLamp]
+Subject = ats131;ATC-R
+Location = 3605,2648
+DaytimeImage =Center\kmph\R.png
+TransparentColor = 00000000
+Layer = 5
+
+[PilotLamp]
+Subject = ats133;ATC-前方予告
+Location = 3752,3266
+DaytimeImage =Center\kmph\前方予告.png
+TransparentColor = 00000000
+Layer = 5
+
+[PilotLamp]
+Subject = ats134;ATC-P
+Location = 3523,3223
+DaytimeImage =Center\kmph\P.png
+TransparentColor = 00000000
+Layer = 5
+
+;[Needle]
+;Subject = ats135;ORP
+;Location = 3681,3051
+;DaytimeImage =Center\kmph\ORP.png
+;Color =cc0000
+;TransparentColor = ffffff
+;Origin = 168,272
+;Layer = 3
+;Radius = 335
+;InitialAngle =-120
+;LastAngle = 120
+;Minimum = 0
+;Maximum = 120
+;NaturalFreq = 0
+;DampingRatio = 10
+
+;---ATO/TASC---
+;[Needle];ATO/TASC-P指針
+;Subject = ats149
+;Location = 3680,3060
+;DaytimeImage =Center\MR針.png
+;Color =cc0000
+;TransparentColor = ffffff
+;Origin = 43,330
+;Layer = 5
+;Radius = 305
+;InitialAngle =-120
+;LastAngle = 120
+;Minimum = 0
+;Maximum = 120
+;NaturalFreq = 0
+;DampingRatio = 10
