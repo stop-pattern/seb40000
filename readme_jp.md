@@ -1,6 +1,6 @@
-# 西武40000系車両アドオン
-[![lisence](https://img.shields.io/github/license/stop-pattern/seb40000.svg)](https://www.apache.org/licenses/LICENSE-2.0) ![size](https://img.shields.io/github/repo-size/stop-pattern/seb40000.svg) [![release](https://img.shields.io/github/release-pre/stop-pattern/seb40000.svg)](/releases) [![release date](https://img.shields.io/github/release-date-pre/stop-pattern/seb40000.svg)](/releases) ![downloads total](https://img.shields.io/github/downloads/stop-pattern/seb40000/total.svg)
-[![open issue](https://img.shields.io/github/issues/stop-pattern/seb40000.svg)](/issues?q=is:open) [![closed issue](https://img.shields.io/github/issues-closed/stop-pattern/seb40000.svg)](/issues?q=is:closed) [![contributors](https://img.shields.io/github/contributors/stop-pattern/seb40000.svg)](/contributors) [![last commit](https://img.shields.io/github/last-commit/stop-pattern/seb40000.svg)](/commit)	 [![last commit activity](https://img.shields.io/github/commit-activity/y/stop-pattern/seb40000.svg)](/commit)
+﻿# 西武40000系車両アドオン
+[![lisence](https://img.shields.io/github/license/stop-pattern/seb40000.svg)](https://www.apache.org/licenses/LICENSE-2.0) ![size](https://img.shields.io/github/repo-size/stop-pattern/seb40000.svg) [![release](https://img.shields.io/github/release-pre/stop-pattern/seb40000.svg)](/releases) [![release date](https://img.shields.io/github/release-date-pre/stop-pattern/seb40000.svg)](/releases) ![downloads total](https://img.shields.io/github/downloads/stop-pattern/seb40000/total.svg)  
+[![open issue](https://img.shields.io/github/issues/stop-pattern/seb40000.svg)](/issues?q=is:open) [![closed issue](https://img.shields.io/github/issues-closed/stop-pattern/seb40000.svg)](/issues?q=is:closed) [![contributors](https://img.shields.io/github/contributors/stop-pattern/seb40000.svg)](/contributors) [![last commit](https://img.shields.io/github/last-commit/stop-pattern/seb40000.svg)](/commit)	 [![last commit activity](https://img.shields.io/github/commit-activity/y/stop-pattern/seb40000.svg)](/commit)  
 [![BVE](https://img.shields.io/badge/supprt-BVE-red.svg)](http://bvets.net) [![BVE](https://img.shields.io/badge/BVE-5.7≦-red.svg)](http://bvets.net)  
 列車運転シミュレーションゲーム”Bve Trainsim”専用西武40000系車両アドオン  
 please read [readme](/readme_en.md) if you want readme in English.  
@@ -14,28 +14,28 @@ please read [readme](/readme_en.md) if you want readme in English.
 - 現在鋭意製作中  
 
 ## 再現している機能
- [x] ログ出力  
- [ ] 運転曲線  
-	 [ ] 加減速度変化図  
-[ ] 転動防止/転動防止開放  
-[ ] ハンドル定速  
-[ ] ハイビーム/減光  
-[ ] ATO  
-	[ ] TASC  
-	[ ] 滑走検知（搭載？<!--加速度絶対値の急動-->  
-[ ] TIS架空対応  
-[ ] TIS種別拡張  
-[ ] TIS停車駅外部入力対応  
-[ ] ドア独立動作  
-[ ] 会社線別乗降促進（搭載？  
-[ ] 防護無線（搭載？  
+- [x] ログ出力
+	- [ ] 運転曲線
+	- [ ] 加減速度変化図
+- [ ] 転動防止/転動防止開放
+- [ ] ハンドル定速
+- [ ] ハイビーム/減光
+- [ ] ATO
+	- [ ] TASC
+	- [ ] 滑走検知（搭載？<!--加速度絶対値の急動-->
+- [ ] TIS架空対応
+- [ ] TIS種別拡張
+- [ ] TIS停車駅外部入力対応
+- [ ] ドア独立動作
+- [ ] 会社線別乗降促進（搭載？
+- [ ] 防護無線（搭載？
 
 ## 環境(動作・サポート)
 
 - Windows10
     制作環境がWindows10であるため、事象の再現性の観点より勝手ながらWindows10のみとします  
 - BveTs(5.7以上)
- 
+
 ## 使用方法
 
 1. [こちら](/releases)から最新版をダウンロード
@@ -51,16 +51,16 @@ please read [readme](/readme_en.md) if you want readme in English.
 <summary>Apache License version2.0(Apache v2)とは</summary>  
 フリーソフトウェアのライセンスの一形態であり、内容は下記の通り 
 
-- 必須事項  
+必須事項  
 - 著作権の表示  
 - 変更箇所の明示  
-- 許可事項  
+許可事項  
 - 商用利用  
 - 修正  
 - 配布  
 - 特許許可  
 - サブライセンス  
-- 禁止事項  
+禁止事項  
 - 責任免除  
 - 商標の使用  
 </details>  
