@@ -95,6 +95,7 @@ limitations under the License.
 必須事項
  - 著作権の表示
  - 変更箇所の明示
+ 
 禁止事項
  - 責任免除
  - 商標の使用
