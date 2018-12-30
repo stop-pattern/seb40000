@@ -98,7 +98,6 @@ limitations under the License.
  - 変更箇所の明示  
 
 禁止事項
-
  - 責任免除  
  - 商標の使用  
 
