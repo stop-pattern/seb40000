@@ -35,7 +35,7 @@ please read [readme](/readme_en.md) if you want readme in English.
 - Windows10
     制作環境がWindows10であるため、事象の再現性の観点より勝手ながらWindows10のみとします  
 - BveTs(5.7以上)
-
+ 
 ## 使用方法
 
 1. [こちら](/releases)から最新版をダウンロード
