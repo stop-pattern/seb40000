@@ -51,20 +51,21 @@ please read [readme](/readme_en.md) if you want readme in English.
 <summary>Apache License version2.0(Apache v2)とは</summary>  
 フリーソフトウェアのライセンスの一形態であり、内容は下記の通り 
 
-必須事項  
-- 著作権の表示  
-- 変更箇所の明示  
+必須事項
+- 著作権の表示
+- 変更箇所の明示
 
-許可事項  
-- 商用利用  
-- 修正  
-- 配布  
-- 特許許可  
-- サブライセンス  
+許可事項
+- 商用利用
+- 修正
+- 配布
+- 特許許可
+- サブライセンス
 
-禁止事項  
-- 責任免除  
-- 商標の使用  
+禁止事項
+- 責任免除
+- 商標の使用
+
 </details>  
 
 ```
