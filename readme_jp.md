@@ -39,8 +39,8 @@ please read [readme](/readme_en.md) if you want readme in English.
 ## 使用方法
 
 1. [こちら](/releases)から最新版をダウンロード
-2. 中身をBVEのScenariosフォルダ[^default_folder]へ移動
- [^default_folder]:デフォルトで`C:\Users\%UserName%\Documents\BveTs\Scenarios\`
+2. 中身をBVEのScenariosフォルダ[^default_folder]へ移動  
+[^default_folder]:デフォルトで`C:\Users\%UserName%\Documents\BveTs\Scenarios\`
 
 ## ライセンス(著作権表示)
 
