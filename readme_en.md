@@ -1,10 +1,9 @@
 ﻿# Seibu Series 40000 Add-on for "BveTrainsim5"
-[![lisence](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0) ![size](https://img.shields.io/github/repo-size/stop-pattern/SpeedometerDriveBoard.svg) [![release](https://img.shields.io/github/release-pre/stop-pattern/SpeedometerDriveBoard.svg)](/releases) [![release date](https://img.shields.io/github/release-date-pre/stop-pattern/SpeedometerDriveBoard.svg)](/releases) ![downloads total](https://img.shields.io/github/downloads/stop-pattern/SpeedometerDriveBoard/total.svg)
-[![open issue](https://img.shields.io/github/issues/stop-pattern/SpeedometerDriveBoard.svg)](/issues?q=is:open) [![closed issue](https://img.shields.io/github/issues-closed/stop-pattern/SpeedometerDriveBoard.svg)](/issues?q=is:closed) [![contributors](https://img.shields.io/github/contributors/stop-pattern/SpeedometerDriveBoard.svg)](/contributors) [![last commit](https://img.shields.io/github/last-commit/stop-pattern/SpeedometerDriveBoard.svg)](/commit)	 [![last commit activity](https://img.shields.io/github/commit-activity/y/stop-pattern/SpeedometerDriveBoard.svg)](/commit)
-![downloads total](https://img.shields.io/github/languages/count/stop-pattern/SpeedometerDriveBoard/total.svg)
-[![BVE](https://img.shields.io/badge/supprt-BVE-red.svg)](http://bvets.net) [![BVE](https://img.shields.io/badge/BVE-5.7≦-red.svg)](http://bvets.net)
+[![lisence](https://img.shields.io/github/license/stop-pattern/seb40000.svg)](https://www.apache.org/licenses/LICENSE-2.0) ![size](https://img.shields.io/github/repo-size/stop-pattern/seb40000.svg) [![release](https://img.shields.io/github/release-pre/stop-pattern/seb40000.svg)](/releases) [![release date](https://img.shields.io/github/release-date-pre/stop-pattern/seb40000.svg)](/releases) ![downloads total](https://img.shields.io/github/downloads/stop-pattern/seb40000/total.svg)  
+[![open issue](https://img.shields.io/github/issues/stop-pattern/seb40000.svg)](/issues?q=is:open) [![closed issue](https://img.shields.io/github/issues-closed/stop-pattern/seb40000.svg)](/issues?q=is:closed) [![contributors](https://img.shields.io/github/contributors/stop-pattern/seb40000.svg)](/contributors) [![last commit](https://img.shields.io/github/last-commit/stop-pattern/seb40000.svg)](/commit)	 [![last commit activity](https://img.shields.io/github/commit-activity/y/stop-pattern/seb40000.svg)](/commit)  
+[![BVE](https://img.shields.io/badge/supprt-BVE-red.svg)](http://bvets.net) [![BVE](https://img.shields.io/badge/BVE-5.7≦-red.svg)](http://bvets.net)  
 Add-on of Seibu series 400000 for ”Bve Trainsim” version 5  
-日本語版のリードミーは[こちら](/readme_jp.md)  
+日本語版のリードミーは[こちら](/readme.md)  
 
 ---
 
@@ -14,34 +13,33 @@ Add-on of Seibu series 400000 for ”Bve Trainsim” version 5
 - now making
 
 ## Features
- - ○output logs
-     - ×Operating curve
-     - ×Acceleration & Deceleration Change Diagram
- - ×Rolling prevention/Release
- - △Constant speed control by handle
- - ×High beam / Dimming
- - ×"ATO"
-     - ×"TASC"
-	 - ×Gliding detection(installed?<!--Abrupt change of absolute acceleration value-->
- - ×"TIS" Imaginary route correspondence
- - ×"TIS" Train type
- - ×"TIS" Stop station external input  correspondence
- - ×Each door independent operation
- - ×Passengers promotional melody divided by route(installed?
- - ×Protective radio(installed?
+- [x] output logs
+	- [ ] Operating curve
+	- [ ] Acceleration & Deceleration Change Diagram
+- [ ] Rolling prevention/Release
+- [ ] Constant speed control by handle
+- [ ] High beam / Dimming
+- [ ] "ATO"
+	- [ ] "TASC"
+	- [ ] Gliding detection(installed?<!--Abrupt change of absolute acceleration value-->
+- [ ] "TIS" Imaginary route correspondence
+- [ ] "TIS" Train type
+- [ ] "TIS" Stop station external input  correspondence
+- [ ] Each door independent operation
+- [ ] Passengers promotional melody divided by route(installed?
+- [ ] Protective radio(installed?
 
-## Operetion & support requirement
+## requirement(Operetion & support)
 
 - Windows10(jp)
-    Production environment is Windows10(jp)  
-    only support this environment from the viewpoint of event reproducibility
+	Production environment is Windows10(jp)  
+	only support this environment from the viewpoint of event reproducibility
 - BveTs(5.7 or latest)
 
 ## Install
 
 1. Download latest version [here](/releases)  
-2. move to BVE's Scenarios\[^default_folder] (/IIietTDTShanJbwqnwbtFg)folder
- \[^default_folder]:default C:\Users\%UserName%\Documents\BvdTs\Scenarios\
+2. move to BVE's Scenarios folder
 
 ## LICENCE
 
@@ -49,20 +47,28 @@ This add-on is in the "Apache v2",
 ライセンス内で定義される成果物とは、当アドオン製作者が制作し、当アドオンに内包されているすべての物のこととする。  
 
 [Apache v2](http://www.apache.org/licenses/LICENSE-2.0)
-> What is the Apache License version2.0(Apache v2)...  
-> One of the Open Source Software Lisence
-> - Required
->   - License and copyright notice  
->   - State Changes  
-> - Permitted  
->   - Commercial Use  
->   - Modifications  
->   - Distribution  
->   - Patent Grant  
->   - Sublicense  
-> - Forbidden
->   - Hold Liable  
->   - Use Trademark  
+<details>
+<summary>
+What is the Apache License version2.0(Apache v2)...  
+One of the Open Source Software Lisence
+
+Required
+- License and copyright notice
+- State Changes
+
+Permitted
+- Commercial Use
+- Modifications
+- Distribution
+- Patent Grant
+- Sublicense
+
+Forbidden
+- Hold Liable
+- Use Trademark
+
+</details>  
+
 ```
 Copyright 2019 stop_pattern
 
