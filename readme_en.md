@@ -31,7 +31,7 @@ Add-on of Seibu series 400000 for ”Bve Trainsim” version 5
 
 ## requirement(Operetion & support)
 
-- Windows10(jp)
+- Windows10(jp)  
 	Production environment is Windows10(jp)  
 	only support this environment from the viewpoint of event reproducibility
 - BveTs(5.7 or latest)
